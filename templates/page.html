@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<head>
+    <br>
+    <meta charset="UTF-8">
+    <title>Estimating LFER descriptors</title>
+</head>
+<body>
+
+    <div align="center">
+    <h2>Estimating LFER descriptors – Demo</h2>
+
+    <br>
+    <form action="{{ url_for('submit')}}" method="post">
+        <b>SMILES </b></b><input type="text" name= "smiles" required />
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+<div style="alignment: center;width:100% ;float:left;margin-left:25%;margin-right:5% ">
+    <table align="center" id="table"  ></table>
+    <div class="row" >
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                {% for i in labels %}
+                                    <td class="text-center"> {{ i }}</td>
+                                {% endfor %}
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for i in values %}
+                                <tr>
+                                    {% for j in i %}
+                                        <td class="text-center">{{ j }}</td>
+                                    {% endfor %}
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                        <h>G: < 1 time of surrogate metric; "B" or "F": between 1-2 or >2 time the surrogate metric</h>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+</html>
