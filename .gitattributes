@@ -1,3 +1,1 @@
 B_model.h5 filter=lfs diff=lfs merge=lfs -text
-S_model.h5 filter=lfs diff=lfs merge=lfs -text
-A_model.h5 filter=lfs diff=lfs merge=lfs -text
