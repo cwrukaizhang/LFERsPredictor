@@ -22,23 +22,16 @@
 <br />
 <p align="center">
   <a href="https://github.com/cwrukaizhang/LFERsPredictor">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="templates/logo.png" alt="Logo" width="200" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">PaDEL-DNN offline predictor</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
     <a href="https://github.com/cwrukaizhang/LFERsPredictor"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/cwrukaizhang/LFERsPredictor">View Demo</a>
-    ·
-    <a href="https://github.com/cwrukaizhang/LFERsPredictor">Report Bug</a>
-    ·
-    <a href="https://github.com/cwrukaizhang/LFERsPredictor">Request Feature</a>
-  </p>
 </p>
 
 
@@ -50,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-Snapshot]](https://example.com)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -88,23 +81,6 @@ This is an example of how to list packages will be needed to make the build mode
    python app_new.py
    ```
 5. Input and switch the local host in a webbrowser.
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-
-
-
-
-
 
 <!-- LICENSE -->
 ## License
