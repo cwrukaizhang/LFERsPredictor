@@ -54,23 +54,29 @@ To test the built models, a python working environment including some python pac
 ### Prerequisites
 
 This is an example of how to list packages will be needed to make the build model working properly.
-* Required python packages
+* Required JRE and python packages
   ```sh
-  -tensorflow
-  -keras
-  -flask
-  -padelpy
-  -pubchempy
+  Java runtime environment
+  tensorflow
+  keras
+  flask
+  padelpy
+  pubchempy
+  rdkit
   ```
 
 ### Installation
 
-1. Create and activate conda virtue environment for the predicting tool
+1. The PaDEL package requires a Java support.
+   ```sh
+   Download Java SE Runtime Environment and install the software.
+   ```
+2. Create and activate conda virtue environment for the predicting tool
    ```sh
    conda create -n LFER_tool
    conda activate LFER_tool
    ```
-2. Install required python package
+3. Install required python package
    ```sh
    conda install tensorflow
    conda install keras
@@ -79,7 +85,7 @@ This is an example of how to list packages will be needed to make the build mode
    pip install padelpy
    pip install pubchempy 
    ```
-3. Install the required python packages
+3. Clone or download the files of this project
    ```sh
    conda install 
    ```
