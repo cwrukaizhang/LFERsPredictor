@@ -28,7 +28,7 @@
   <h3 align="center">PaDEL-DNN offline predictor</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    This Github project shared the sourcecode for our recent research for estimating LFER descriptors for organic chemicals!
     <br />
     <a href="https://github.com/cwrukaizhang/LFERsPredictor"><strong>Explore the docs »</strong></a>
     <br />
@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+In our recent research, we used the PaDEL package and the deep neural network tp built predictive models for LFER descriptors. This project provided some codes or trained models for estimating LFER descriptorts for new chemicals and reproduce some results presented in our manuscript. For potential users, a step by step explanantion was provided in the following sections.
 
 
 <!-- GETTING STARTED -->
