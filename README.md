@@ -43,19 +43,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In our recent research, we used the PaDEL package and the deep neural network tp built predictive models for LFER descriptors. This project provided some codes or trained models for estimating LFER descriptorts for new chemicals and reproduce some results presented in our manuscript. For potential users, a step by step explanantion was provided in the following sections.
+In our recent research, we used the PaDEL package and the deep neural network to built predictive models for LFER descriptors. This project provided some codes or trained models for estimating LFER descriptorts for new chemicals and reproduce some results presented in our manuscript. For potential users, a step by step explanantion was provided in the following sections.
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To test the built models, a python working environment including some python packages needed to be configurated first. After finishing the configuration of python environment, one can run the python script to launch the offline predicting tool in a web broswer. Then, inputing the "SMILES" of the test chemicals and the estimated LFER descriptors and the surrogate metric results will be displayed.
 
 ### Prerequisites
 
 This is an example of how to list packages will be needed to make the build model working properly.
-* conda
+* Required python packages
   ```sh
   -tensorflow
   -keras
