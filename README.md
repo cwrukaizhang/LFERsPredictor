@@ -85,11 +85,11 @@ This is an example of how to list packages will be needed to make the build mode
    pip install padelpy
    pip install pubchempy 
    ```
-3. Clone or download the files of this project
+3. Clone (if git software is avaliable on the computer) or download the files of this project
    ```sh
-   conda install 
+   git clone https://github.com/cwrukaizhang/LFERsPredictor.git 
    ```
-4. Enter the working directory and run the  app_new.py file
+4. Swithch to the working directory and run the  app_new.py file
    ```JS
    python app_new.py
    ```
