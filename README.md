@@ -95,13 +95,6 @@ This is an example of how to list packages will be needed to make the build mode
    ```
 5. Input and switch the local host in a webbrowser.
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
