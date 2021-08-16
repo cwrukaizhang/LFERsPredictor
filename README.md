@@ -28,7 +28,7 @@
   <h3 align="center">PaDEL-DNN offline predictor</h3>
 
   <p align="center">
-    This Github project shared the sourcecode for our recent research for estimating LFER descriptors for organic chemicals!
+    This Github project shared some source codes from our recent research for estimating LFER descriptors for organic chemicals!
     <br />
     <a href="https://github.com/cwrukaizhang/LFERsPredictor"><strong>Explore the docs »</strong></a>
     <br />
@@ -85,23 +85,23 @@ This is an example of how to list packages will be needed to make the build mode
    pip install padelpy
    pip install pubchempy 
    ```
-3. Clone (if git software is avaliable on the computer) or download the files of this project
+4. Clone (if git software is avaliable on the computer) or download the files of this project
    ```sh
    git clone https://github.com/cwrukaizhang/LFERsPredictor.git 
    ```
-4. Swithch to the working directory and run the  app_new.py file
+5. Swithch to the working directory and run the  app_new.py file
    ```JS
    python app_new.py
    ```
-5. Input and switch the local host in a webbrowser.
+6. Input the local host address in the webbroswer and switch to predicting page.
+   ```JS
+   http://127.0.0.1:80/
+   ````
 
 <!-- CONTACT -->
 ## Contact
 
-
-
 Project Link: [https://github.com/cwrukaizhang/LFERsPredictor](https://github.com/cwrukaizhang/LFERsPredictor)
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
