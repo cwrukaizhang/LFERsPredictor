@@ -28,7 +28,7 @@
   <h3 align="center">PaDEL-DNN offline predictor</h3>
 
   <p align="center">
-    This Github project shared the sourcecode for our recent research for estimating LFER descriptors for organic chemicals!
+    This Github project shared some source codes from our recent research for estimating LFER descriptors for organic chemicals!
     <br />
     <a href="https://github.com/cwrukaizhang/LFERsPredictor"><strong>Explore the docs »</strong></a>
     <br />
