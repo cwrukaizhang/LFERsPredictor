@@ -65,9 +65,19 @@ This is an example of how to list packages will be needed to make the build mode
 
 ### Installation
 
-1. Clone the repo
+1. Create and activate conda virtue environment for the predicting tool
    ```sh
-   git clone https://github.com/cwrukaizhang/LFERsPredictor.git
+   conda create -n LFER_tool
+   conda activate LFER_tool
+   ```
+2. Install required python package
+   ```sh
+   conda install tensorflow
+   conda install keras
+   conda install flask
+   conda install -c rdkit rdkit
+   pip install padelpy
+   pip install pubchempy 
    ```
 3. Install the required python packages
    ```sh
