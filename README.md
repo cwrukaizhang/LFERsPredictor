@@ -56,6 +56,7 @@ To test the built models, a python working environment including some python pac
 This is an example of how to list packages will be needed to make the build model working properly.
 * Required JRE and python packages
   ```sh
+  python ==3.8
   Java runtime environment
   tensorflow
   keras
@@ -93,7 +94,7 @@ This is an example of how to list packages will be needed to make the build mode
    ```JS
    python app_new.py
    ```
-6. Input the local host address in the webbroswer and switch to predicting page.
+6. Input the local host address(may vary among different computer or operating system) in the webbroswer and switch to predicting page.
    ```JS
    http://127.0.0.1:80/
    ````
