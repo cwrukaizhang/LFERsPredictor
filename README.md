@@ -72,7 +72,7 @@ This is an example of how to list packages will be needed to make the build mode
    ```sh
    Download Java SE Runtime Environment and install the software.
    ```
-2. Create and activate conda virtue environment for the predicting tool
+2. Create and activate conda virtual environment for the predicting tool
    ```sh
    conda create -n LFER_tool
    conda activate LFER_tool
