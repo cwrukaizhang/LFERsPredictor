@@ -86,9 +86,10 @@ This is an example of how to list packages will be needed to make the build mode
    pip install padelpy
    pip install pubchempy 
    ```
-4. Clone (if git software is avaliable on the computer) or download the files of this project
+4. Clone (if Github and Git LFS software is avaliable on the computer) the files of this project. Note:Git LFS will be needed, 
+   because this project contains some large files.
    ```sh
-   git clone https://github.com/cwrukaizhang/LFERsPredictor.git 
+   git lfs clone https://github.com/cwrukaizhang/LFERsPredictor.git 
    ```
 5. Swithch to the working directory and run the  app_new.py file
    ```JS
