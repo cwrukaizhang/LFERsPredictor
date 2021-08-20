@@ -74,7 +74,7 @@ This is an example of how to list packages will be needed to make the build mode
    ```
 2. Create and activate conda virtual environment for the predicting tool
    ```sh
-   conda create -n LFER_tool
+   conda create -n LFER_tool python=3.8
    conda activate LFER_tool
    ```
 3. Install required python package
