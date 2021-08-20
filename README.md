@@ -91,7 +91,7 @@ This is an example of how to list packages will be needed to make the build mode
    ```sh
    git lfs clone https://github.com/cwrukaizhang/LFERsPredictor.git 
    ```
-5. Swithch to the working directory and run the  app_new.py file
+5. Switch to the working directory and run the app_new.py file
    ```JS
    python app_new.py
    ```
