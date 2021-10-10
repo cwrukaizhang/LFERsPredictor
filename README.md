@@ -90,7 +90,7 @@ This is an example of how to list packages will be needed to make the build mode
    pip install pubchempy
    
    ```
-4. Clone (if Github and Git LFS software is avaliable on the computer) the files of this project. Note:Git LFS will be needed, 
+4. Clone (if Github and Git LFS software is avaliable on the computer) the files of this project. Note: Git LFS will be needed, 
    because this project contains some large files.
    ```sh
    git lfs clone https://github.com/cwrukaizhang/LFERsPredictor.git 
