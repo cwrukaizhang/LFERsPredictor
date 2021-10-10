@@ -56,10 +56,11 @@ To test the built models, a python working environment including some python pac
 This is an example of how to list packages will be needed to make the build model working properly.
 * Required JRE and python packages
   ```sh
-  python ==3.8
+  python ==3.9
   Java runtime environment
   tensorflow
   keras
+  scikit-learn
   flask
   padelpy
   pubchempy
@@ -74,17 +75,19 @@ This is an example of how to list packages will be needed to make the build mode
    ```
 2. Create and activate conda virtual environment for the predicting tool
    ```sh
-   conda create -n LFER_tool python=3.8
+   conda create -n LFER_tool python=3.9
    conda activate LFER_tool
    ```
 3. Install required python package
    ```sh
-   conda install tensorflow
-   conda install keras
-   conda install flask
+   conda install tensorflow==2.5.0
+   conda install keras==2.4.3
+   conda install flask==1.1.2
+   conda install scikit-learn==0.23.2
    conda install -c rdkit rdkit
    pip install padelpy
-   pip install pubchempy 
+   pip install pubchempy
+   
    ```
 4. Clone (if Github and Git LFS software is avaliable on the computer) the files of this project. Note:Git LFS will be needed, 
    because this project contains some large files.
