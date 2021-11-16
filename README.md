@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/cwrukaizhang/LFERsPredictor">
-    <img src="images/logo.png" alt="Logo" width="300" height="120">
+    <img src="images/Logo.png" alt="Logo" width="300" height="120">
   </a>
 
   <h3 align="center">PaDEL-DNN offline predictor</h3>
