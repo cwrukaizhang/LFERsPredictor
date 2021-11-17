@@ -28,7 +28,7 @@
   <h3 align="center">PaDEL-DNN offline predictor</h3>
 
   <p align="center">
-    This Github project shared some source codes from our recent research for estimating LFER descriptors for organic chemicals!
+    This Github project shared some source codes from our recent research for estimating pp-LFER descriptors for neutral organic chemicals!
     <br />
     <a href="https://github.com/cwrukaizhang/LFERsPredictor"><strong>Explore the docs »</strong></a>
     <br />
@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In our recent research, we used the PaDEL package and the deep neural network to built predictive models for LFER descriptors. This project provided some codes or trained models for estimating LFER descriptorts for new chemicals and reproduce some results presented in our manuscript. For potential users, a step by step explanantion was provided in the following sections.
+In our recent research, we used the PaDEL package and the deep neural network to built predictive models for pp-LFER descriptors. This project provided some codes or trained models for estimating pp-LFER descriptorts for new chemicals and reproduce some results presented in our manuscript. For potential users, a step by step explanantion was provided in the following sections.
 
 
 <!-- GETTING STARTED -->
@@ -90,14 +90,14 @@ This is an example of how to list packages will be needed to make the build mode
    pip install pubchempy
    
    ```
-4. Clone (if Github and Git LFS software is avaliable on the computer) the files of this project. Note: Git LFS will be needed, 
-   because this project contains some large files. Download and install Git from "https://git-scm.com/downloads" and 
-   Git LFS from "https://git-lfs.github.com/". Input the following code in a new terminal.
+4. Clone the files of this project. Note: Git LFS will be needed, because this project contains some large files. 
+   Download and install Git from "https://git-scm.com/downloads" and  Git LFS from "https://git-lfs.github.com/". 
+   Input the following code in a new terminal.
    ```sh
    git LFS install
    git lfs clone https://github.com/cwrukaizhang/LFERsPredictor.git C:/LFER_tool  # clone the project to directory C:/LFER_tool 
    ```
-5. Switch to the working directory and run the app_new.py file
+5. Switch to the working directory in the first terminal and run the app_new.py file
    ```JS
    python app_new.py
    ```
