@@ -74,7 +74,7 @@ This is an example of how to list packages will be needed to make the build mode
    Download Java SE Runtime Environment and install the software.
    https://www.java.com/en/download/manual.jsp
    ```
-2. Create and activate conda virtual environment for the predicting tool in a terminal(first terminal).
+2. Create and activate conda virtual environment for the predicting tool in a terminal.
    ```sh
    conda create -n LFER_tool python=3.9
    conda activate LFER_tool
@@ -92,7 +92,7 @@ This is an example of how to list packages will be needed to make the build mode
    ```
 4. Clone the files of this project. Note: Git LFS will be needed, because this project contains some large files. 
    Download and install Git from "https://git-scm.com/downloads" and  Git LFS from "https://git-lfs.github.com/". 
-   Input the following code in a new terminal(second terminal).
+   Input the following code in the Git CMD.
    ```sh
    git LFS install
    git lfs clone https://github.com/cwrukaizhang/LFERsPredictor.git C:/LFER_tool  # clone the project to directory C:/LFER_tool 
