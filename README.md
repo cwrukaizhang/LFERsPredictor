@@ -91,9 +91,11 @@ This is an example of how to list packages will be needed to make the build mode
    
    ```
 4. Clone (if Github and Git LFS software is avaliable on the computer) the files of this project. Note: Git LFS will be needed, 
-   because this project contains some large files.
+   because this project contains some large files. Download and install Git from "https://git-scm.com/downloads" and 
+   Git LFS from "https://git-lfs.github.com/". Input the following code in the  terminal.
    ```sh
-   git lfs clone https://github.com/cwrukaizhang/LFERsPredictor.git 
+   git LFS install
+   git lfs clone https://github.com/cwrukaizhang/LFERsPredictor.git C:/LFER_tool  # clone the project to directory C:/LFER_tool 
    ```
 5. Switch to the working directory and run the app_new.py file
    ```JS
