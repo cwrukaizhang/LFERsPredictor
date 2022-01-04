@@ -97,7 +97,7 @@ This is an example of how to list packages will be needed to make the build mode
    git LFS install
    git lfs clone https://github.com/cwrukaizhang/LFERsPredictor.git C:/LFER_tool  # clone the project to directory C:/LFER_tool 
    ```
-5. Switch to the working directory in the first terminal and run the app_new.py file
+5. Switch to the working directory("C:/LFER_tool") in the first terminal and run the app_new.py file
    ```JS
    python app_new.py
    ```
