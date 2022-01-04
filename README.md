@@ -109,7 +109,7 @@ This is an example of how to list packages will be needed to make the build mode
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/cwrukaizhang/LFERsPredictor](https://github.com/cwrukaizhang/LFERsPredictor)
+Publication Link: [https://pubs.acs.org/doi/10.1021/acs.est.1c05398](https://pubs.acs.org/doi/10.1021/acs.est.1c05398)
 
 
 <!-- ACKNOWLEDGEMENTS -->
