@@ -70,11 +70,10 @@ This is an example of how to list packages will be needed to make the build mode
 
 ### Installation
 
-1. The PaDEL package requires a Java support.
-   ```sh
-   Download Java SE Runtime Environment and install the software.
-   https://www.java.com/en/download/manual.jsp
-   ```
+1. The PaDEL package requires a Java support.Download Java SE Runtime Environment and install the software.
+
+   [https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp)
+   
 2. Create and activate conda virtual environment for the predicting tool in a terminal.
    ```sh
    conda create -n LFER_tool python=3.9
