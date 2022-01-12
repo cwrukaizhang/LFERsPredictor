@@ -80,7 +80,7 @@ This is an example of how to list packages will be needed to make the build mode
    conda create -n LFER_tool python=3.9
    conda activate LFER_tool
    ```
-3. Install required python package
+3. Install required python packages for the "LFER_tool" environment.
    ```sh
    conda install tensorflow==2.5.0
    conda install keras==2.4.3
