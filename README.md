@@ -30,7 +30,7 @@
   <p align="center">
     This Github project shared some source codes from our recent research for estimating pp-LFER descriptors for neutral organic chemicals!
     <br />
-    <a href="https://github.com/cwrukaizhang/LFERsPredictor"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/cwrukaizhang/LFERsPredictor"><strong>Explore the project »</strong></a>
     <br />
 </p>
 
