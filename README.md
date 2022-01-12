@@ -110,7 +110,8 @@ This is an example of how to list packages will be needed to make the build mode
 <!-- CONTACT -->
 ## Contact
 
-Publication Link: [https://pubs.acs.org/doi/10.1021/acs.est.1c05398](https://pubs.acs.org/doi/10.1021/acs.est.1c05398)
+Publication Link: [https://pubs.acs.org/doi/10.1021/acs.est.1c05398](https://pubs.acs.org/doi/10.1021/acs.est.1c05398).
+
 Any question in configuring the running environment. Please contact: [zhangkwhut@gmail.com](zhangkwhut@gmail.com)
 
 
