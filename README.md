@@ -51,11 +51,6 @@ In our recent research, we used the PaDEL package and the deep neural network to
 
 To test the built models, a python working environment including some python packages needed to be configurated first. After finishing the configuration of python environment, one can run the python script to launch the offline predicting tool in a web broswer. Then, inputing the "SMILES" of the test chemicals and the estimated LFER descriptors and the surrogate metric results will be displayed.
 
-Any question in configuring the running environment. 
-* Please contact:
-  ```sh
-   zhangkwhut@gmail.com
-  ```
 
 ### Prerequisites
 
@@ -116,6 +111,7 @@ This is an example of how to list packages will be needed to make the build mode
 ## Contact
 
 Publication Link: [https://pubs.acs.org/doi/10.1021/acs.est.1c05398](https://pubs.acs.org/doi/10.1021/acs.est.1c05398)
+Any question in configuring the running environment. Please contact: [zhangkwhut@gmail.com](zhangkwhut@gmail.com)
 
 
 <!-- ACKNOWLEDGEMENTS -->
