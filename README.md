@@ -21,7 +21,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/cwrukaizhang/LFERsPredictor">
+  <a href="https://github.com/cwrukaizhang/LFERsPredictor/main">
     <img src="images/logo.png" alt="logo" width="800" height="320">
   </a>
 
